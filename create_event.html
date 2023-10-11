@@ -3,10 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/dist/create.css">
     <title>Create Events</title>
 </head>
 <body>
+    <section>
+        <form>
+            <fieldset>
+                <div>
+                    <label for="Event" >
+                        Name for the event:
+                    </label>
+                    <br>
+                    <input
+                    name="name"
+                    placeholder="Type here"
+                    required
+                    >
+                </div>
+                <div>
+                    <label for="Date">
+                        Date of the event:
+                    </label><br>
+                    <input type="date"
+                    required
+                    >
+                </div>
+                <br>
+                <div>
+                    <label for="Description">Short Description:</label><br>
+                    <textarea name="description" id="" cols="25" rows="6" required></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="Agenda">Agenda:</label><br>
+                    <textarea name="message" id="" cols="25" rows="16" required></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="how-many">
+                        Hur många:
+                    </label><br>
+                    <input 
+                        name="how-many" 
+                        placeholder="tex 2 personer" 
+                        type="number"
+                        min="0"
+                        required                       
+                    >
+                    <br>
+                <br>
+                <div>
+                    <label for="appt">
+                        Välj vilken tid:
+                    </label><br>
+                    <input type="time" id="appt" name="appt">
+
+                </div>
+                </div>
+                <br>
+                
+                <br>
+                <button type="submit">Book here!</button>
+                <button type="reset">Restart</button>
+            </fieldset>
     
+        </form>
+    
+    </section>
 </body>
 </html>
