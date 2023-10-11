@@ -7,7 +7,7 @@
     <title>Create Events</title>
 </head>
 <body>
-    <section>
+    <main>
         <form>
             <fieldset>
                 <div>
@@ -40,29 +40,27 @@
                     <textarea name="message" id="" cols="25" rows="16" required></textarea>
                 </div>
                 <br>
+                <br>
                 <div>
-                    <label for="how-many">
-                        Hur många:
-                    </label><br>
-                    <input 
-                        name="how-many" 
-                        placeholder="tex 2 personer" 
-                        type="number"
-                        min="0"
-                        required                       
-                    >
+                    <label>Upload images</label>
                     <br>
+                    <input type="file">
+                </div>
+                <br>
                 <br>
                 <div>
-                    <label for="appt">
-                        Välj vilken tid:
-                    </label><br>
-                    <input type="time" id="appt" name="appt">
-
-                </div>
+                    <select name="Category">
+                        <option value="">Choose Category</option>
+                        <option value="1">Rock</option>
+                        <option value="2">Hard Rock</option>
+                        <option value="3">Rock Guitarist </option>
+                        <option value="4">British Rock</option>
+                        <option value="5">High-Energy Rock</option>
+                        <option value="6">Southern Rock</option>
+                        <option value="7">American Rock</option>
+                    </select> 
                 </div>
                 <br>
-                
                 <br>
                 <button type="submit">Book here!</button>
                 <button type="reset">Restart</button>
@@ -70,6 +68,32 @@
     
         </form>
     
-    </section>
+    </main>
+    <aside class="aside">
+        <nav class="aside__menu">
+            <ul>
+                <li>
+                    <a href="/index.html">
+                    Home
+                    </a>
+                </li>
+                <li>
+                    <a href="./event_detail.html">
+                        Even Details
+                    </a>
+                </li>
+                <li>
+                    <a href="./create_event.html">
+                        Create Event
+                    </a>
+                </li>
+                <li>
+                    <a href="./about_us.html">
+                        About Us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
 </body>
 </html>

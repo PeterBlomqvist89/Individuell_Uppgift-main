@@ -2,46 +2,27 @@ html{
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     & h1{
         font-size: 3rem;
+        margin-top: 43px;
     }   
     & h2{
        font-size: 1rem;
     }
     & li{
         list-style: none;
+        
     }
  }
 
-header {
-    text-align: center;
+.event-detail{
+    margin-left: -40px;
 }
 
- .main-container {
-    max-width: 1300px;
-    margin: 0 auto;
-}
+.event-images{
+    max-width: 300px;
 
-.front-image{
-    width: 92%;
-    height: 800px;
-    margin-bottom: 24px;
-}
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
-
-    &__article{
-        flex: 1;
-        padding: 12px;
+    &:hover{    
+        transform: scale(01.1);
     }
-
-    &__article__image{
-        
-        padding-left: 40px;
-        &:hover{    
-            transform: scale(01.1);
-        }
-    }   
 }
 
 .aside{
@@ -56,4 +37,8 @@ header {
         }
     }
 
+main{
+    max-width: 770px;
+    margin-left: 300px;
+}
 

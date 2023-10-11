@@ -3,6 +3,7 @@ html {
 }
 html h1 {
   font-size: 3rem;
+  margin-top: 43px;
 }
 html h2 {
   font-size: 1rem;
@@ -11,9 +12,15 @@ html li {
   list-style: none;
 }
 
-fieldset {
-  margin-left: 300px;
-  border: none;
+.event-detail {
+  margin-left: -40px;
+}
+
+.event-images {
+  max-width: 300px;
+}
+.event-images:hover {
+  transform: scale(1.1);
 }
 
 .aside {
@@ -26,4 +33,9 @@ fieldset {
   display: block;
   background-color: #f7f7f7;
   padding: 16px 48px 16px 0px;
-}/*# sourceMappingURL=create.css.map */
+}
+
+main {
+  max-width: 770px;
+  margin-left: 300px;
+}/*# sourceMappingURL=event.css.map */

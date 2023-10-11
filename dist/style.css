@@ -4,6 +4,9 @@ html {
 html h1 {
   font-size: 3rem;
 }
+html h2 {
+  font-size: 1rem;
+}
 html li {
   list-style: none;
 }
@@ -25,16 +28,10 @@ header {
 
 .container {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 24px;
-  -moz-column-gap: 12px;
-       column-gap: 12px;
 }
 .container__article {
   flex: 1;
-  min-width: 300px;
-  min-height: 200px;
   padding: 12px;
 }
 .container__article__image {
