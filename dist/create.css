@@ -1,14 +1,5 @@
-html {
-  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-}
-html h1 {
-  font-size: 3rem;
-}
-html h2 {
-  font-size: 1rem;
-}
-html li {
-  list-style: none;
+h1 {
+  margin-left: 310px;
 }
 
 fieldset {

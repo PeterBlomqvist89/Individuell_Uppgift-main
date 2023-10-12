@@ -1,26 +1,22 @@
-html {
-  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-}
-html h1 {
-  font-size: 3rem;
-  margin-top: 43px;
-}
-html h2 {
-  font-size: 1rem;
-}
-html li {
-  list-style: none;
+main {
+  max-width: 1055px;
+  margin-left: 300px;
 }
 
-.event-detail {
+.event-text {
   margin-left: -40px;
 }
 
-.event-images {
-  max-width: 300px;
+.event {
+  display: flex;
+  flex-wrap: wrap;
 }
-.event-images:hover {
-  transform: scale(1.1);
+.event__images {
+  max-width: 250px;
+  padding: 5px;
+}
+.event__images:hover {
+  transform: scale(2);
 }
 
 .aside {
@@ -33,9 +29,4 @@ html li {
   display: block;
   background-color: #f7f7f7;
   padding: 16px 48px 16px 0px;
-}
-
-main {
-  max-width: 770px;
-  margin-left: 300px;
 }/*# sourceMappingURL=event.css.map */

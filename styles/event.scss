@@ -1,28 +1,23 @@
-html{
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-    & h1{
-        font-size: 3rem;
-        margin-top: 43px;
-    }   
-    & h2{
-       font-size: 1rem;
-    }
-    & li{
-        list-style: none;
-        
-    }
+main{
+     max-width: 1055px;
+     margin-left: 300px;
  }
-
-.event-detail{
+.event-text{
     margin-left: -40px;
 }
 
-.event-images{
-    max-width: 300px;
+.event{
+    display: flex;
+    flex-wrap: wrap;
 
-    &:hover{    
-        transform: scale(01.1);
-    }
+    &__images{
+        max-width: 250px;
+        padding: 5px;
+    
+        &:hover{    
+            transform: scale(2);
+        }
+}
 }
 
 .aside{
@@ -37,8 +32,4 @@ html{
         }
     }
 
-main{
-    max-width: 770px;
-    margin-left: 300px;
-}
 
