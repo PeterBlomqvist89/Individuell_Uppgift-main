@@ -6,7 +6,7 @@ html h1 {
   margin-top: 43px;
 }
 html h2 {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 html li {
   list-style: none;
@@ -20,6 +20,6 @@ html li {
 }
 .aside__menu {
   display: block;
-  background-color: #f7f7f7;
+  background-color: #e1e1e1;
   padding: 16px 48px 16px 0px;
 }/*# sourceMappingURL=global.css.map */
