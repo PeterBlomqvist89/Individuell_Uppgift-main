@@ -2,3 +2,18 @@ main{
     max-width: 1055px;
     margin-left: 300px;
 }
+
+.ceo{
+    display: flex;
+    gap: 10px; 
+    &__image{
+    width: 30%;
+    }
+
+}
+.team_photo{
+    width: 100%;
+}
+fieldset {
+    background-color: grey;
+   }

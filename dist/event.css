@@ -11,10 +11,11 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
-.event__images {
+.event__image {
   max-width: 250px;
   padding: 5px;
 }
-.event__images:hover {
+.event__image:hover {
+  transition: 200ms;
   transform: scale(2);
 }/*# sourceMappingURL=event.css.map */

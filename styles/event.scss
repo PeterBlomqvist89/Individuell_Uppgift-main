@@ -10,11 +10,12 @@ main{
     display: flex;
     flex-wrap: wrap;
 
-    &__images{
+    &__image{
         max-width: 250px;
         padding: 5px;
     
-        &:hover{    
+        &:hover{
+            transition: 200ms;
             transform: scale(2);
         }
 }
