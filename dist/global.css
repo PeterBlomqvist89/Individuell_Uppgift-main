@@ -4,9 +4,11 @@ html {
 html h1 {
   font-size: 3rem;
   margin-top: 43px;
+  color: #bc0101;
 }
 html h2 {
   font-size: 1.3rem;
+  color: #bc0101;
 }
 html li {
   list-style: none;

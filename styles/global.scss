@@ -1,11 +1,16 @@
+$text-colour: #bc0101;
+
 html{
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     & h1{
         font-size: 3rem;
         margin-top: 43px;
+        color: $text-colour;
     }   
     & h2{
        font-size: 1.3rem;
+       color: $text-colour;
+
     }
     & li{
         list-style: none;
@@ -18,6 +23,7 @@ html{
     top: 50px;
     left: 50px;  
     font-size: 1.3rem;
+    
     &__menu{
         display: block;
         background-color: #e1e1e1;
