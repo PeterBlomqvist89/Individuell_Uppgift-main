@@ -1,3 +1,5 @@
+
+
 main{
     max-width: 1055px;
     margin-left: 300px;
@@ -14,6 +16,15 @@ main{
 .team_photo{
     width: 100%;
 }
-fieldset {
-    background-color: grey;
-   }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #e1e1e1;
+    height: 300px;
+}
+button{
+    width: 100px;
+}
