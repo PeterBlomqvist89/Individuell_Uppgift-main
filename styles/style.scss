@@ -1,3 +1,5 @@
+@import "_variables";
+
 header {
     text-align: center;
 }
@@ -23,9 +25,8 @@ header {
     }
 
     &__article__image{
+        padding-left: 40px;        
         
-        padding-left: 40px;
-
         &:hover{
             transition: 200ms;    
             transform: scale(01.1);

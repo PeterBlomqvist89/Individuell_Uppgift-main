@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
@@ -24,4 +28,10 @@ html li {
   display: block;
   background-color: #e1e1e1;
   padding: 16px 48px 16px 0px;
+}
+
+@media (max-width: 810px) {
+  * {
+    background-color: red;
+  }
 }/*# sourceMappingURL=global.css.map */
