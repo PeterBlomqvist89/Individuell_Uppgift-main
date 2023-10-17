@@ -14,34 +14,48 @@ html{
     & h2{
        font-size: 1.3rem;
        color: $text-colour;
-
     }
     & li{
-        list-style: none;
-        
+        list-style: none;        
     }
-    
  }
+
  .aside{
     position: fixed;
     top: 50px;
     left: 50px;  
     font-size: 1.3rem;
+   
     
+    & a{
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        text-align: center;
+        color: $text-colour;
+        }
+
+    & a:hover{
+        background-color: $text-colour;
+        color: white;
+    }
+
     &__menu{
         display: block;
         background-color: #e1e1e1;
-        padding: 16px 48px 16px 0px;
+        // padding: 16px 48px 16px 0px;
+
         }
     }
+     
 
-    @media (max-width:810px) {
-   *{
-    background-color: red;
-   }
-  
+    
+
+//     @media (max-width:810px) {
+//    *{
+//     background-color: red;
+//    }
 
 
 
 
-    }
