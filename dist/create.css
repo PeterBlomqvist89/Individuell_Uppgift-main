@@ -13,4 +13,29 @@ input {
 
 .area {
   width: 350px;
+}
+
+@media (max-width: 1682px) {
+  fieldset {
+    margin-left: 40px;
+  }
+  h1 {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 616px) {
+  fieldset {
+    margin-left: 10px;
+  }
+  h1 {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 498px) {
+  fieldset {
+    margin-left: 0px;
+  }
+  h1 {
+    margin-left: 10px;
+  }
 }/*# sourceMappingURL=create.css.map */

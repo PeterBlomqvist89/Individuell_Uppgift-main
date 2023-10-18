@@ -33,6 +33,56 @@ main{
         }
 }
 }
+@media (max-width:1682px) {  
+    main{
+        margin-left: 50px;
+        max-width: 90%;
+    }
+    h1{
+        margin-left: -5px;
+      }
+    .event__image{
+        
+            &:hover{
+                transition: 200ms;
+                transform: scale(1.3);
+            }
+    }
+}
+
+@media (max-width:616px) {  
+    main{
+        margin-left: 20px;
+        max-width: 90%;
+    }
+    h1{
+        margin-left: 1px;
+      }
+    .event__image{
+        
+            &:hover{
+                transition: 200ms;
+                transform: scale(1.2);
+            }
+    }
+}
+        
+  @media (max-width:498px) {  
+    main{
+        margin-left: 20px;
+        max-width: 90%;
+    }
+    h1{
+        margin-left: 1px;
+      }
+    .event__image{
+        
+            &:hover{
+                transition: 200ms;
+                transform: scale(1.2);
+            }
+    }
+}
 
 
 
