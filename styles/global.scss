@@ -56,14 +56,14 @@ html{
     }
     }
     
-  @media (max-width:1682px) {  
+  @media (max-width:$bg-pixel) {  
   .navbar{
     top: 0;
     left: 0;
     position: absolute;
     width: 100%;
     overflow: auto;
-    background-color: $bg-colour;
+    background-color:$bg-colour;
 
       & a{
         float:left;
@@ -74,7 +74,7 @@ html{
       }
   }
 
-  @media (max-width:616px) {  
+  @media (max-width:$md-pixel) {  
     .navbar{
 
         & a{
@@ -83,7 +83,7 @@ html{
         }
     }
         
-    @media (max-width:498px) {  
+    @media (max-width:$sm-pixel) {  
         .navbar{
             
             & a{

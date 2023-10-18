@@ -52,7 +52,6 @@ main {
     margin-left: 1px;
   }
   .event__image:hover {
-    transition: 200ms;
     transform: scale(1.2);
   }
 }
@@ -65,7 +64,6 @@ main {
     margin-left: 1px;
   }
   .event__image:hover {
-    transition: 200ms;
     transform: scale(1.2);
   }
 }/*# sourceMappingURL=event.css.map */

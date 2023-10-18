@@ -17,7 +17,7 @@ input{
     width: 350px;
 }
 
-@media (max-width:1682px) {  
+@media (max-width:$bg-pixel) {  
     fieldset{
       margin-left: 40px;
       }
@@ -26,7 +26,7 @@ input{
       }
 }
 
-@media (max-width:616px) {  
+@media (max-width:$md-pixel) {  
     fieldset{
       margin-left: 10px;
       }
@@ -35,7 +35,7 @@ input{
       }
 }
         
-  @media (max-width:498px) {  
+  @media (max-width:$sm-pixel) {  
     fieldset{
       margin-left: 0px;
     }
