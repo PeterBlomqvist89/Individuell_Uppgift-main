@@ -51,15 +51,22 @@ html button:hover {
 
 @media (max-width: 1682px) {
   .aside {
-    font-size: 1.3rem;
     position: absolute;
+    width: 100%;
+    overflow: auto;
     top: 0;
-    width: 100vh;
+    left: 30%;
     background-color: #e1e1e1;
   }
-  .aside__menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .aside li {
+    display: inline-block;
+  }
+  .aside ul {
+    padding: 0;
+    margin: 0;
+  }
+  .aside a {
+    padding: 10px;
+    float: left;
   }
 }/*# sourceMappingURL=global.css.map */
